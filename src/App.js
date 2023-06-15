@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import './App.css';
 
 function App() {
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]); // Setup movies with an empty array
 
   useEffect(() => {
     loadMovies()
